@@ -1,0 +1,126 @@
+*{
+    font-family:  "Roboto", sans empattement ;
+    font-size: x-large;
+}
+
+header nav{
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+header nav img, header nav ul{
+    display: inline-block;
+}
+body{
+    font-family: sans-serif;
+    margin: O; /*vous connaissez*/
+}
+.banniere{
+    padding: 100px; /*vous ne connaissez pas encore*/
+    background-image: url('Capture.PNG');  
+}
+
+.banniere{
+    background: linear-gradient(90deg #168131,#320781);
+}
+
+h1{
+    color: #d3d2d2;
+    text-align: center;
+}
+p {
+    color: #201b1b;
+    text-align: center;
+    
+}
+
+.scoll-top{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 107, 66);
+    background-color: rgb(26, 231, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.scoll-top:hover{
+    background-color: transparent;
+    border: 1px solid rgb(68, 103, 170);
+}
+.scoll-top a{
+    text-decoration: none;
+    color: rgb(221, 218, 213);
+}
+
+
+#image:hover{
+    height: 3p;
+}
+
+.ma-classe{
+    text-align: center ;
+    color: #000000;
+}
+
+.grand-texte {
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(179, 174, 174); /*Le fond du texte sera en noir*/
+    color: beige; 
+}
+.big-box{
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    width: 700px;
+    background-color: rgb(97, 105, 89);
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 30px;
+}
+
+.box{
+   width: 100px;
+   height: 50px;
+   background-color: aqua;
+
+}
+.box1{
+    
+   background-color: rgba(81, 79, 107, 0.788);
+
+}
+.box2{
+   background-color: rgba(240, 106, 17, 0.788);
+
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: rgb(27, 209, 20);
+}
+.box6{
+    background-color: hotpink;
+}
+.box7{
+    background-color: #000000;
+}
+.box8{
+    background-color: gold;
+}

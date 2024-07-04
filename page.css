@@ -1,3 +1,11 @@
+*{
+    font-family: "Roboto" ,sans-serif;
+    font-size: xx-large;
+}
+body{
+    background-color: black; /*le font de la page sera noir*/
+    color: rgb(233, 227, 227); /*le texte de la page sera blanc*/
+}
 h1, p {
     color: #722121;
 }
@@ -7,6 +15,43 @@ h3 {
 img {
     color: aqua;
 }
-.ma-classe {
-    color: #722121;
+h5, .ma-classe {
+    color: #63123e;
 }
+ul  {
+/*<li>Le savoir</li>
+            <li>Le savoir etre</li>
+            <li>Le savoir fait</li>
+            </ol>*/
+            color: #722121;
+    }
+    .ma-classe {
+        color: aqua;
+    }
+
+    .grand-texte {
+        font-size: 50px;
+    }
+
+    .elem1{
+        font-size: 1em;
+    }
+
+    .elem2{
+        font-size: 2em;
+    }
+
+    .elem3{
+        font-size: 4em;
+    }
+    :link{
+        font-family: 'Roboto', sans-sérif;
+        font-size: 40px;
+    }
+    em{
+        font-style: normal;
+    }
+    body {
+        background-color: rgb(196, 224, 33); /*le fond de la page sera noir*/
+        color: white; /*le texte de la page sera blanc*/
+    }
